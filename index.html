@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Sen:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css"
+    />
+    <script
+      src="https://kit.fontawesome.com/79a89b9e16.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="animations.css" />
+    <link rel="stylesheet" href="scrollDown.css" />
+    <title>Rok Papez</title>
+  </head>
+  <body>
+    <nav>
+      <div class="nav-container">
+        <h1>
+          <span class="name-header"><i class="fa-solid fa-code"></i> Rok</span
+          >Papez
+        </h1>
+
+        <div class="menu">
+          <a href="#" class="is-active">Home</a>
+          <a href="#about-section">About</a>
+          <a href="#projects-section">Projects</a>
+          <a href="#contanct-section">Contact</a>
+        </div>
+
+        <button class="hamburger">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero-section">
+      <div class="hero-wrapper">
+        <div class="header__text-box">
+          <h2 class="heading-primary">
+            <span class="heading-primary--main"> Hello I'm Rok</span>
+            <span class="heading-primary--sub"
+              >I'm a junior Front-End developer</span
+            >
+          </h2>
+
+          <div class="about-me-btn hero-btn btn--animated">
+            <a href="#about-section">About me</a>
+          </div>
+        </div>
+        <div class="hero-img-container">
+          <img
+            src="/web-development.png"
+            class="hero-img"
+            alt="planets and stars"
+          />
+        </div>
+      </div>
+
+      <!-- Scroll down animation -->
+      <div class="scrolldown">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about-section" id="about-section">
+      <h2 class="section-heading">About me</h2>
+      <div class="about-wrapper">
+        <div class="about-image">
+          <img
+            src="/rok-profile-photo.jpeg"
+            class="about-img"
+            alt="rok papez profile photo"
+          />
+        </div>
+
+        <div class="about-text-container">
+          <p class="about-text">
+            Hello World! I'm Rok, a Junior Front-End Developer based in
+            Slovenia. From photography to lines of code on a web page, I love
+            combining the worlds of logic and creative design to make
+            eye-catching, accessible, and user-friendly websites and
+            applications.
+          </p>
+          <p class="about-text">
+            Technology leads, society follows. The move towards increasing
+            inclusivity and diversity in the industry through representation is
+            of importance to me.
+          </p>
+          <p class="about-text">
+            I'm excited to make the leap and continue learning and expanding my
+            skills with the right company. Drop me a line on my email or check
+            me out on my socials.
+          </p>
+        </div>
+      </div>
+      <div class="about-me-btn download-btn">
+        <a href="/CV.pdf" download="Rok_Papez_CV">Donwload CV</a>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="projects-section" id="projects-section">
+      <h2 class="section-heading">My projects</h2>
+
+      <div class="projects-grid">
+        <div class="one project-container">
+          <a href="https://rockpapez.github.io/MusicPlayer/" target="_blank"
+            ><img
+              src="/musicPlayer.jpg"
+              class="slika"
+              alt="music player thumbnail"
+          /></a>
+          <p class="project-title">Music Player</p>
+        </div>
+
+        <div class="one project-container">
+          <a
+            href="https://rockpapez.github.io/FurtnitureWebsite/"
+            target="_blank"
+            ><img
+              src="/furnitureWebsite.jpg"
+              class="slika"
+              alt="furtinure website thumbnail"
+          /></a>
+          <p class="project-title">Furniture Website</p>
+        </div>
+        <div class="one project-container">
+          <a href="https://rockpapez.github.io/QuoteGenerator/" target="_blank"
+            ><img
+              src="/quoteGenerator.jpg"
+              class="slika"
+              alt="quote generator thumbnail"
+          /></a>
+          <p class="project-title">Quote Generator</p>
+        </div>
+        <div class="one project-container">
+          <a href="https://rockpapez.github.io/Survey-Form/" target="_blank"
+            ><img
+              src="/survey-form.jpg"
+              class="slika"
+              alt="survey form thumbnail"
+          /></a>
+          <p class="project-title">Survey Form</p>
+        </div>
+        <div class="one project-container">
+          <a href="https://rockpapez.github.io/Survey-Form/" target="_blank"
+            ><img src="/stars.svg" class="slika" alt=""
+          /></a>
+          <p class="project-title">Survey Form</p>
+        </div>
+        <div class="one project-container">
+          <a href="https://rockpapez.github.io/Survey-Form/" target="_blank"
+            ><img src="/stars.svg" class="slika" alt=""
+          /></a>
+          <p class="project-title">Survey Form</p>
+        </div>
+      </div>
+      <div class="about-me-btn">
+        <a href="https://github.com/rockpapez" target="_blank">See more</a>
+      </div>
+    </section>
+
+    <section class="contact-section" id="contanct-section">
+      <h2 class="section-heading">Contact</h2>
+      <div class="contact-form">
+        <h2 class="contact-heading">Send me a message</h2>
+        <input type="email" name="email" id="email" placeholder="Email" />
+        <input type="text" name="text" id="text" placeholder="Message" />
+        <button class="contact-btn">Send message</button>
+      </div>
+    </section>
+
+    <script src="main.js"></script>
+  </body>
+</html>
