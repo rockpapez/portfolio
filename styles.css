@@ -128,9 +128,9 @@ h1 {
 
 /* Hero section */
 .hero-section {
-  height: 95vh;
+  height: 100vh;
   background-color: var(--dark);
-  /* background-image: linear-gradient(to bottom, #5416ac, #212121); */
+
   display: flex;
   align-items: center;
   justify-content: center;
@@ -139,14 +139,14 @@ h1 {
 .hero-wrapper {
   display: flex;
   align-items: center;
-  gap: 2rem;
+  /* gap: 2rem; */
   justify-content: space-around;
 }
 
 .header__text-box {
   display: flex;
   flex-direction: column;
-  width: auto;
+  width: 50%;
   gap: 1rem;
 }
 
@@ -214,7 +214,7 @@ h1 {
 }
 
 .hero-img-container {
-  width: 60rem;
+  width: 100rem;
 }
 
 .hero-img {
@@ -225,13 +225,13 @@ h1 {
 /* ABOUT SECTION */
 .about-section {
   display: flex;
-  gap: 10rem;
+  gap: 5rem;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   height: auto;
   background-color: #212121;
-  padding: 10rem 0 10rem;
+  padding: 14rem 0 10rem;
 }
 
 .section-heading {
@@ -248,7 +248,7 @@ h1 {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-around;
   gap: 2rem;
 }
 
@@ -342,7 +342,7 @@ h1 {
   align-items: center;
   justify-content: center;
   height: 50rem;
-  background-image: linear-gradient(to bottom, #212121, #5416ac);
+  /* background-image: linear-gradient(to bottom, #212121, #5416ac); */
 }
 
 .socials-wrapper {
@@ -524,4 +524,40 @@ h1 {
   .socials-wrapper i {
     font-size: 5rem;
   }
+}
+
+/* Blob */
+
+.blob {
+  width: 70rem;
+}
+
+.blob-container {
+  width: 50%;
+}
+
+.spacer {
+  aspect-ratio: 960/300;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-image: url(/SVGS/pekass.svg);
+}
+.spacer-about {
+  aspect-ratio: 960/300;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-image: url(/SVGS/aboutwaves.svg);
+}
+
+.spacer-footer {
+  aspect-ratio: 960/600;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-image: url(/SVGS/footervawes.svg);
 }
