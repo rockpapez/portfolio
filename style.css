@@ -542,7 +542,7 @@ h1 {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  background-image: url(/SVGS/pekass.svg);
+  background-image: url(SVGS/pekass.svg);
 }
 .spacer-about {
   aspect-ratio: 960/300;
@@ -550,7 +550,7 @@ h1 {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  background-image: url(/SVGS/aboutwaves.svg);
+  background-image: url(SVGS/aboutwaves.svg);
 }
 
 .spacer-footer {
@@ -559,5 +559,5 @@ h1 {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  background-image: url(/SVGS/footervawes.svg);
+  background-image: url(SVGS/footervawes.svg);
 }
